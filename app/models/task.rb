@@ -5,6 +5,7 @@ class Task < ApplicationRecord
       ['Now', 3]
   ]
 
+  belongs_to :user
   validates :title, presence: true, length: {minimum: 5, too_short: "%{count} characters is the minimum allowed"}
 
   def complete!

@@ -5,7 +5,7 @@ class CreateTasks < ActiveRecord::Migration[5.0]
       t.integer :priority
       t.boolean :completed
 
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end
