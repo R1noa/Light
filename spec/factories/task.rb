@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :task do
-    title "James Bond"
-    description "My name is"
+    title "Heisenberg"
+    description "Say my name"
   end
 end
