@@ -11,15 +11,12 @@ Rails.application.routes.draw do
     end
   end
 
-       resources :tasks do 
-         put :complete, :not_complete, on: :member
-         get 'complete'
-         get 'make_active'
-         collection do
-           post :destroy_multiple
-      
+  resources :tasks do 
+    put :complete, :not_complete, on: :member
+    get 'complete'
+    get 'make_active'
+    collection do
+      post :destroy_multiple
     end 
   end 
-
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
