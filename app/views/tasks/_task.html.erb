@@ -1,9 +1,6 @@
 <tr class="hover1">
   <div  class="hover1">
-    <div class="task priority_<%= task.priority  %>
-      completed_
-      <%= task.completed %>
-      ">
+    <div class="task priority_<%= task.priority  %> completed_<%= task.completed %>  ">
       <th>
         <%= check_box_tag 'tasks[]', task.id, false, class: 'batch-del batch-del-checkbox' %></th>
 
@@ -24,11 +21,8 @@
           <%= link_to content_tag('span', '', class: 'fa fa-check-square-o'), complete_task_path(task), data: {method: :put}, class:'done action' %>
           <% else %>
           <%= link_to content_tag('span', '', class: 'fa fa-minus'), not_complete_task_path(task), data: {method: :put}, class:'done action' %>
-          <% end %></div>
-
+        <% end %></div>
       </th>
-
     </div>
-
   </div>
 </tr>

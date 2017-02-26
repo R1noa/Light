@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Todo1</title>
-  <%= csrf_meta_tags %>
-
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track': true %>
-  <script src="sorttable.js"></script>
-</head>
-<body>
-  <%= render 'layouts/header' %>
-
-  <p class="notice">
-    <%= notice %></p>
-  <p class="alert">
-    <%= alert %></p>
-
-  <div class="container">
-    <div class="row">
-      <%= yield %></div>
-  </div>
-
-</body>
+  <head>
+    <title>Todo1</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': true %>
+    <script src="sorttable.js"></script>
+  </head>
+    <body>
+      <%= render 'layouts/header' %>
+      <p class="notice">
+        <%= notice %></p>
+      <p class="alert">
+        <%= alert %></p>
+      <div class="container">
+        <div class="row">
+        <%= yield %></div>
+      </div>
+    </body>
 </html>
