@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails todo1: test" uuid="0eec8d27-9795-424a-94ad-260d50b3f5bb">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+    </data-source>
+    <data-source name="Rails todo1: development" uuid="6396e74a-0eab-4fff-a025-8ecb3dc2361b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+    </data-source>
+    <data-source name="Rails todo1: production" uuid="7b0a7bc0-c584-4ac8-a33c-8afb628872d9">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+    </data-source>
+  </component>
+</project>

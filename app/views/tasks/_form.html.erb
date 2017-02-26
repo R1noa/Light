@@ -1,0 +1,16 @@
+<div class="col-md-6">
+	<%= simple_form_for @task do |f| %>
+	<p>
+		<%= f.input :title %></p>
+	<p>
+		<%= f.input :priority %></p>
+	<p>
+		<%= f.input :description %></p>
+	<p>
+		<%= f.date_field :due_date, :required =>true, :value => Date.today, :min => Date.today %></p>
+
+	<p>
+		<%= f.input :completed %></p>
+	<p>
+		<%= f.button :submit %></p>
+	<% end %></div>

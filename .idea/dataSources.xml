@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails todo1: test" uuid="0eec8d27-9795-424a-94ad-260d50b3f5bb">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:my_database_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails todo1: development" uuid="6396e74a-0eab-4fff-a025-8ecb3dc2361b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:my_database_development</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails todo1: production" uuid="7b0a7bc0-c584-4ac8-a33c-8afb628872d9">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:my_database_production</jdbc-url>
+    </data-source>
+  </component>
+</project>
